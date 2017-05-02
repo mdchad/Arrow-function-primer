@@ -5,7 +5,7 @@ In ES2015, we saw arrow function was introduced. Two of the benefits of arrow fu
 1. Shorter function expression
 2. Solve the non-binding of this
 
-###Syntax
+### Syntax
 
 ES5
 
@@ -16,6 +16,7 @@ var a = function(b) {
 
 a(2)   //4
 ```
+<br>
 
 
 ES2015 with single parameter (concise body)
@@ -26,6 +27,7 @@ let a = b => b * 2
 
 a(2)  //4
 ```
+<br>
 
 
 ES2015 with return statement (block body)
@@ -38,6 +40,7 @@ let a = b => {
 
 a(2)  //4
 ```
+<br>
 
 
 ES2015 with multiple parameters
@@ -48,6 +51,7 @@ let a = (b, c) => b * c
 
 a(2, 2)  //4
 ```
+<br>
 
 
 ES2015 with no parameters
@@ -58,6 +62,7 @@ let a = () => 2 * 2
 
 a()  //4
 ```
+<br>
 
 
 ES2015 returning object literal
@@ -70,6 +75,7 @@ let a = () => ({
 
 a()   //{ foo: 'bar' }
 ```
+<br>
 
 
 ES2015 returning object literal with return statement
@@ -84,6 +90,7 @@ let a = () => {
 
 a()
 ```
+<br>
 
 
 ES5 callback 
@@ -96,6 +103,7 @@ ES5 callback
 
 //[2,4,6,8]
 ```
+<br>
 
 
 ES2015 callback 
@@ -106,8 +114,10 @@ ES2015 callback
 
 //[2,4,6,8]
 ```
+<br>
 
 ES5 IIFE 
+<br>
 
 
 ```
@@ -120,6 +130,7 @@ let person = function(name) {
 }("Irsyad");
 console.log(person.getName()); //'Irsyad'
 ```
+<br>
 
 ES2015 IIFE
 
@@ -134,10 +145,10 @@ let person = (function(name) {
 })("Irsyad");
 console.log(person.getName()); //'Irsyad'
 ```
+<br>
 
 
-
-###Solving Bind
+### Solving Bind
 
 ES5
 
@@ -156,6 +167,7 @@ let PageHandler = {
 };                //example from Understanding ECMAScript 6 by Nicholas Zakas
 
 ```
+<br>
 
 
 ES2015
@@ -173,6 +185,8 @@ let PageHandler = {
 };
 
 ```
+<br>
+
 
 ES5 Binding in constructor
 ```
@@ -186,6 +200,7 @@ class Foo {
    }
 }
 ```
+<br>
 
 
 ES2015 Binding in constructor
@@ -202,6 +217,7 @@ class Foo {
    }
 }
 ```
+<br>
 
 
 Further reading
