@@ -5,7 +5,7 @@ In ES2015, we saw arrow function was introduced. Two of the benefits of arrow fu
 1. Shorter function expression
 2. Solve the non-binding of this
 
-**Syntax
+###Syntax
 
 ES5
 
@@ -137,7 +137,7 @@ console.log(person.getName()); //'Irsyad'
 
 
 
-**Solving Bind
+###Solving Bind
 
 ES5
 
@@ -207,7 +207,10 @@ class Foo {
 Further reading
 
 [Mozilla MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
+<br>
 [Understanding ECMAScript 6: The Definitive Guide for JavaScript Developers](https://www.amazon.com/Understanding-ECMAScript-Definitive-JavaScript-Developers/dp/1593277571/ref=sr_1_1?s=books&ie=UTF8&qid=1493735907&sr=1-1&keywords=understanding+ecmascript+6)
+<br>
 [When not to use arrow function](https://rainsoft.io/when-not-to-use-arrow-functions-in-javascript/)
+<br>
 [Do ES6 Arrow Functions Really Solve “this” In JavaScript?](https://derickbailey.com/2015/09/28/do-es6-arrow-functions-really-solve-this-in-javascript/)
 
