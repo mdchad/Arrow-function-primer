@@ -8,6 +8,7 @@ In ES2015, we saw arrow function was introduced. Two of the benefits of arrow fu
 ### Syntax
 
 ES5
+<br>
 
 ``` 
 var a = function(b) {
@@ -20,6 +21,7 @@ a(2)   //4
 
 
 ES2015 with single parameter (concise body)
+<br>
 
 
 ```
@@ -31,6 +33,7 @@ a(2)  //4
 
 
 ES2015 with return statement (block body)
+<br>
 
 
 ```
@@ -44,6 +47,7 @@ a(2)  //4
 
 
 ES2015 with multiple parameters
+<br>
 
 
 ```
@@ -55,6 +59,7 @@ a(2, 2)  //4
 
 
 ES2015 with no parameters
+<br>
 
 
 ```
@@ -66,6 +71,7 @@ a()  //4
 
 
 ES2015 returning object literal
+<br>
 
 
 ```
@@ -79,6 +85,7 @@ a()   //{ foo: 'bar' }
 
 
 ES2015 returning object literal with return statement
+<br>
 
 
 ```
@@ -94,6 +101,7 @@ a()
 
 
 ES5 callback 
+<br>
 
 
 ```
@@ -107,6 +115,7 @@ ES5 callback
 
 
 ES2015 callback 
+<br>
 
 
 ```
@@ -133,6 +142,7 @@ console.log(person.getName()); //'Irsyad'
 <br>
 
 ES2015 IIFE
+<br>
 
 
 ```
@@ -149,8 +159,10 @@ console.log(person.getName()); //'Irsyad'
 
 
 ### Solving Bind
+<br>
 
 ES5
+<br>
 
 ```
 let PageHandler = {
@@ -171,6 +183,7 @@ let PageHandler = {
 
 
 ES2015
+<br>
 
 
 ```
@@ -189,6 +202,8 @@ let PageHandler = {
 
 
 ES5 Binding in constructor
+<br>
+
 ```
 class Foo {
    constructor() {
@@ -204,6 +219,7 @@ class Foo {
 
 
 ES2015 Binding in constructor
+<br>
 
 
 ```
