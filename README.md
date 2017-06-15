@@ -218,7 +218,7 @@ class Foo {
 <br>
 
 
-ES2015 Binding in constructor
+Binding in constructor using property initilizer(do note that this is in stage-2 and not part of ES2015)
 <br>
 
 
